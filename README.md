@@ -41,9 +41,7 @@ Details of Software and Neural Network Model for Object Detection:
 ### Install the dependencies:
 ```
 python -m pip install -r requirements.txt 
- 
 ```
-
 #### GPIO Pinout: 
 
 Turn signal recognition (Hall effect sensor): 
