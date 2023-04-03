@@ -44,7 +44,7 @@ python -m pip install -r requirements.txt
  
 ```
 
-GPIO Pinout: 
+#### GPIO Pinout: 
 
 Turn signal recognition (Hall effect sensor): 
 Power 5V: Pin 2, Ground: Pin 20, Data: Pin 22 (GPIO 25) 
