@@ -1,0 +1,6 @@
+opencv_python>=4.6
+numpy>=1.21
+tensorflow==2.11
+pygame>=2.1.2
+obd>=0.7.1
+pyserial>=3.5
