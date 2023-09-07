@@ -6,9 +6,15 @@ with the use of computer vision and other sensors have the ability to recognize 
 warn of impending traffic accidents or other dangerous situations, with the goal of the 
 driver taking action and preventing them from escalating.
 
-This program takes a feed from the camera or videofile and does lane detection using houghlines and 
-object collission, car departure and run red light detection using bonding boxes from mobile_net_v3_small 
-with TensorFlow Lite 
+#### The system adds the following capabilities (subsystems) to any Vehicle:
+- Lane Departure Warning – (LDW)
+- Forward Collision Warning – (FCW)
+- Forward Vehicle Start Alarm – (FVSA)
+- Red Light Violation Warning – (RLVW).
+
+This program takes a feed from the camera or videofile and does **Lane Departure Warning** using houghlines and 
+**Forward Collision Warning**, **Forward Vehicle Start Alarm** and **Red Light Violation Warning** using object detection (bonding boxes from mobile_net_v3_small 
+with TensorFlow Lite)
 
 Details of Software and Neural Network Model for Object Detection:
 
